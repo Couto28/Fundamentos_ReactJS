@@ -1,3 +1,5 @@
+import MyComponent from "./MyComponent";
+
 // testando comentários .
 const FirstComponent = () => {
 
@@ -8,6 +10,7 @@ const FirstComponent = () => {
     <h1>
         Meu primeiro Componete React !
     </h1>
+    <MyComponent/>
    </div>
     );
 };
